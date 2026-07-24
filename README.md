@@ -1,11 +1,11 @@
-# COMP303 - Software Design (Fall 2024)
+# COMP303 - Software Design (Fall 2026)
 
 Provides an introduction to software design, with a focus on object-oriented design. 
 
 | |  |
 | --- |---|
 |**Instructor:** |[Martin Robillard](http://www.cs.mcgill.ca/~martin)|
-|**Time and Place:** |Tuesdays and Thursdays, 2:35-3:55 in [MCMED 504](https://maps.mcgill.ca/?z=16.00&cmp=1&txt=EN&id=McIntyre).|
+|**Time and Place:** |Mondays and Wednesdays, 2:35-3:55 in [SADB-M1](https://maps.mcgill.ca/?z=16.00&cmp=1&txt=EN&id=StrathconaAD).|
 |**Policy on lectures:**| Lectures are designed as an interactive in-person activity during which anyone should feel comfortable to participate. Lectures are therefore **not recorded** and may not be independently audio- or video-recorded. It is permitted to take pictures of the presentation screen for _private study_ if the picture does not include the instructor or other students. Attendance is recommended but not mandatory. |
 |**Contact:** | The fastest way to get answers to questions about the course is to use the course's **discussion board**. The instructor and TAs will also be available in person during **office hours** (times and place posted on myCourses). Please resort to **email** only for exceptional and confidential administrative matters (note that response delays are inevitable due to email volume). The email addresses of the TAs will be available through myCourses.|
 
@@ -32,7 +32,7 @@ After this course, you should be able to...
 
 ## Reference Material
 
-* **Required Textbook**: [Introduction to Software Design with Java, 2nd edition](https://link.springer.com/book/10.1007/978-3-030-97899-0). The electronic version of this book is **free** for McGill users with library access. 
+* **Required Textbook**: [Introduction to Software Design with Java, 3rd edition (2026)](https://link.springer.com/book/10.1007/978-3-032-11821-9). The electronic version of this book is **free** for McGill users with library access. 
 * **Code Samples**: [CodeSample.info](https://CodeSample.info)
 * **GitHub Repository**: [DesignBook @ GitHub](https://github.com/prmr/DesignBook)
 * **Sample Projects:** [COMP303 Starter](https://github.com/prmr/COMP303Starter), [Minesweeper](https://github.com/prmr/Minesweeper), [Solitaire](https://github.com/prmr/Solitaire)
@@ -44,7 +44,7 @@ This course is divided into nine modules that map to the chapters of the book. E
 
 **The lectures are designed to complement and enrich the required reading, not repeat it.** To get the most of the lectures, the corresponding reading should be done _before_ the lecture. Without the required preparation, the lectures will appear confusing.
 
-Practice exercises are organized in terms of the chapter structure and are available on the [companion website](https://github.com/prmr/DesignBook). The exercises are designed to help you learn as effectively as possible: you can do them at your own pace, individually or in a group, repeat what's necessary, seek advice from anyone, and make mistakes and learn from them. For these and other reasons, they would be a poor choice for *testing* your knowledge of the material, so they are not graded. Instead, your practical skills will be evaluated through *lab tests*.
+Practice exercises are organized in terms of the chapter structure and are available on the [companion website](https://github.com/prmr/DesignBook). The exercises are designed to help you learn as effectively as possible: you can do them at your own pace, individually or in a group, repeat what's necessary, seek advice from anyone (or anything), and make mistakes and learn from them. For these and other reasons, they would be a poor choice for *testing* your knowledge of the material, so they are not graded. Instead, your practical skills will be evaluated through *lab tests*.
 
 **To be able to follow the pace of the course, the reading should be done before the chapter lectures and the exercises completed within one week of the end of the second lecture of the chapter.**
 
@@ -60,9 +60,9 @@ Practice exercises are organized in terms of the chapter structure and are avail
 
 - **Accommodation 1 (exams)**: If the grade of the final exam exceeds that of the midterm, the  grade of the final exam will replace the grade of the midterm. This accommodation covers the case where students are unable to write the midterm.
 - **Accommodation 2 (labs):** The grade of the lab tests will be the average of the grades of the best three lab tests. This accommodation covers the case where students are unable to complete a lab test.
-- **Date and place of the in-person midterm:** 23 October 2024 06:05 pm-08:05 pm, LEA 132.
+- **Date and place of the in-person midterm:** In late October, exact details to be confirmed as soon as possible.
 - All material covered in the textbook, lectures, and in the practice exercises is subject to assessment.
-- Here is a [sample midterm](https://github.com/prmr/COMP303/blob/2019F/Sample-Midterm.pdf). This sample is provided so that you can familiarize yourself in advance with the *exam style*. **However**, the course schedule varies slightly from section to section so **the topics covered in the sample midterm are not necessarily representative of what will be evaluated in your own midterm**.
+- Here is a [sample midterm](Sample-Midterm.pdf). This sample is provided so that you can familiarize yourself in advance with the *exam style*. **However**, the course schedule varies slightly from section to section so **the topics covered in the sample midterm are not necessarily representative of what will be evaluated in your own midterm**.
 
 <div style="font-size:0.5em;">
 
@@ -89,4 +89,4 @@ See myCourses for a detailed schedule and the lab sign-up sheet.
 
 Unless otherwise noted, the content of this repository is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. 
 
-Copyright Martin P. Robillard 2024
+Copyright Martin P. Robillard 2026

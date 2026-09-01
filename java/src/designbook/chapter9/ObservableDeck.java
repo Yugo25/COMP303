@@ -1,0 +1,34 @@
+/*******************************************************************************
+ * Java code samples on the essentials of Java programming.
+ * https://codesample.info
+ *
+ * Copyright (C) 2026 by Mathieu Nassif and Martin Robillard
+ *
+ * This code is licensed under a Creative Commons 
+ * Attribution-NonCommercial-NoDerivatives 4.0 International License.
+ * See http://creativecommons.org/licenses/by-nc-nd/4.0/
+ *******************************************************************************/
+package designbook.chapter9;
+
+import java.util.function.Consumer;
+
+/**
+ * Sample observable object where the Observer design pattern is applied using
+ * functional-style design.
+ * 
+ * See Section 9.5.
+ */
+public class ObservableDeck extends Deck {
+	private Consumer<Card> aDrawHandler;
+
+	public ObservableDeck(Consumer<Card> pDrawHandler) {
+		aDrawHandler = pDrawHandler;
+	}
+
+	@Override
+	public Card draw() {
+		Card card = super.draw();
+		aDrawHandler.accept(card);
+		return card;
+	}
+}

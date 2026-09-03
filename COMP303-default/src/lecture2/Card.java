@@ -9,14 +9,9 @@ public class Card {
     private int aRank;
     private Suit aSuit;
 
-
     public Card(int pRank, Suit pSuit) {
         aRank = pRank;
         aSuit = pSuit;
-    }
-
-    public int id() {
-        return aSuit * RANKS.length + aRank;
     }
 
     public Card next() {
@@ -29,11 +24,11 @@ public class Card {
     }
 
     public String toString() {
-        return "%s of %s".formatted(RANKS[this.aRank], SUITS[this.aSuit]);
+        return "%s of %s".formatted(RANKS[this.aRank], this.aSuit);
     }
 
     public Card randomCard() {
-        return new Card(RANDOM.nextInt(RANKS.length), RANDOM.nextInt(SUITS.length));
+        return new Card(RANDOM.nextInt(RANKS.length), Suit.values() [RANDOM.nextInt(Suit.values().length)]);
     }
 
     private static Random RANDOM = new Random();

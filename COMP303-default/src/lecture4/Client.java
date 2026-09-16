@@ -8,9 +8,9 @@ import java.util.List;
 
 public class Client {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        Deck deck = new Deck();
-        System.out.println(deck);
+        Deck deck = Deck.createFullOrdered();
+        
     }
 }

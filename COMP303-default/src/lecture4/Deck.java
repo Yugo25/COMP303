@@ -22,17 +22,30 @@ import java.util.function.Predicate;
  */
 public class Deck {
 	private final List<Card> aCards = new ArrayList<>(52);
+
+	public static Deck createFullShuffled() {
+		Deck deck = createFullOrdered();
+		Collections.shuffle(deck.aCards);
+		return deck;
+	}
+
+	public static Deck createEmpty() {
+		return new Deck();
+	}
+
+	public static Deck createFullOrdered() {
+		return new Deck();
+	}
 	
 	/**
 	 * Creates a new deck of 52 cards, shuffled.
 	 */
-	public Deck() {
+	private Deck() {
 		for (Suit suit : Suit.values()) {
             for (Rank rank : Rank.values()) {
                 aCards.add(new Card(rank, suit));
             }
 		}
-		Collections.shuffle(aCards);
 	}
 	
 	public Deck(Predicate<Card> pConfigurator) {

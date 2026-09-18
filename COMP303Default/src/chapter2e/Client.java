@@ -2,7 +2,7 @@ package chapter2e;
 
 public class Client {
     public static void main(String[] args) {
-        Card card = new Card(Suit.CLUBS, Rank.ACE);
+        Card card = Card.random();
 
         System.out.println(card);
     }

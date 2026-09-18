@@ -1,6 +1,6 @@
 package chapter2e;
 
-public class Card {
+public class BiCard {
     public boolean aIsRed = false; 
     private boolean aIsSharp = false; // true if the suit shape has a sharp angle
     private boolean aBi1 = false;
@@ -16,7 +16,7 @@ public class Card {
     * @pre pSuit != null
     * @pre pRank != null
     */
-    public Card(Suit pSuit, Rank pRank) {
+    public BiCard(Suit pSuit, Rank pRank) {
         assert pSuit != null && pRank != null;
         fromSuit(pSuit);
         fromRank(pRank);

@@ -14,5 +14,17 @@ package chapter2e;
  * Represents the suit of a playing card.
  */
 public enum Suit { 
-	CLUBS, DIAMONDS, SPADES, HEARTS,
+	CLUBS, DIAMONDS, SPADES, HEARTS;
+
+	public enum Color {
+		RED, BLACK
+	}
+
+	public Color color() {
+		if (this == CLUBS || this == SPADES) {
+			return Color.BLACK;
+		} else {
+			return Color.RED;
+		}
+	}
 }

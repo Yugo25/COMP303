@@ -13,7 +13,7 @@ package lecture4;
 /**
  * Implementation of a playing card. This class yields immutable objects.
  */
-public class Card {
+public class Card implements Comparable<Card> {
 	private Rank aRank;
 	private Suit aSuit;
 	
@@ -48,4 +48,17 @@ public class Card {
 	public boolean isBlack() {
 		return (this.aSuit == Suit.DIAMONDS || this.aSuit == Suit.HEARTS);
 	}
+
+	@Override 
+	public int compareTo(Card pOther) {
+		if (getSuit() == pOther.getSuit()) {
+			return getRank().compareTo(pOther.getRank());
+		} else {
+			return getSuit().compareTo(pOther.getSuit());
+		}
+	}
+
+	public String toString() {
+        return "%s of %s".formatted(getRank(), getSuit());
+    }
 }

@@ -14,13 +14,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.function.Predicate;
+import java.util.Iterator;
 
 /**
  * Represents a deck of playing cards. In this version, the cards in the 
  * deck are stored in a list and the list of cards in the deck can 
  * be obtained by client code using an immutable wrapper object.
  */
-public class Deck {
+public class Deck implements Iterable<Card> {
 	private final List<Card> aCards = new ArrayList<>(52);
 
 	public static Deck createFullShuffled() {
@@ -103,5 +104,10 @@ public class Deck {
 
 	public String toString() {
 		return aCards.toString();
+	}
+
+	@Override
+	public Iterator<Card> iterator() {
+		return aCards.iterator();
 	}
 }

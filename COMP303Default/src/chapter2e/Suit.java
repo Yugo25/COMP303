@@ -27,4 +27,8 @@ public enum Suit {
 			return Color.RED;
 		}
 	}
+
+	public Suit nextSuit() {
+		return Suit.values()[(this.ordinal() + 1) % Suit.values().length];
+	}
 }

@@ -50,4 +50,12 @@ public class Card {
 	public static Card random() {
 		return new Card(Rank.values()[aRandom.nextInt(Rank.values().length)], Suit.values()[aRandom.nextInt(Suit.values().length)]);
 	}
+
+	/**
+	 * Returns the next card
+	 * @return Card object of the next card
+	 */
+	public Card next() {
+		return new Card(aRank.nextRank(), aSuit.nextSuit());
+	}
 }
